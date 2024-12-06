@@ -10,3 +10,7 @@ with open('output.txt', 'w', encoding='utf-8') as output_file:
         # Если длина строки (без пробелов в начале и конце) больше 5 символов, записываем её в 'output.txt'
         if len(line.strip()) > 5:
             output_file.write(line)
+            # Вывод изменённого текста на экран
+print("Содержимое нового файла:")
+print(line)   
+    
